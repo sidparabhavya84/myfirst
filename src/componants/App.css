@@ -1,0 +1,29 @@
+/* body{
+  width: 1140px;
+  background-color: brown;
+} */
+.card{
+  width: 1140px;
+  height: 600px;
+  /* background-color: rgb(234, 152, 0); */
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-item{ 
+  height: 320px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 5px dotted rgb(191, 90, 90);
+  background-color: slategrey;
+
+}
+.card-item h1,h2{
+  color: sandybrown;
+}
+h2{
+  color: rgb(86, 75, 64);
+}
