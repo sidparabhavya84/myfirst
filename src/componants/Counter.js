@@ -22,9 +22,11 @@ class Counter extends React.Component {
                     {this.state.count}
                 </p>
                 <div className="buttons">
-                    <button onClick={() => this.setState({ count : this.state.count + 1})}>Count : +</button>
+                    <button onClick={() => this.setState({ count : this.state.count + 1})}>Count : +
+                    </button>
 
-                    <button onClick={() => this.setState({ count : this.state.count - 1})}>Count : -</button>
+                    <button onClick={() => this.setState({ count : this.state.count - 1})}>Count : -
+                    </button>
                 </div>
             </>
         )
