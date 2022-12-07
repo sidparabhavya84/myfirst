@@ -5,19 +5,19 @@ import './index.css'
 import reportWebVitals from './reportWebVitals';  
 // import Gallary from './componants/Gallary';
 // import title from './componants/title';
-// import Header from './componants/Header';
-import Counter from './componants/Counter';
+import Header from './componants/Header';
+// import Counter from './componants/Counter';
 // import Theamchanger from './componants/Theamchanger';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// const list = ["Home","About us","Blog","Services","Contact us","Help"];
+const list = ["Home","About us","Blog","Services","Contact us","Help"];
 
 root.render(
   <>
-    <Counter />
+    {/* <Counter /> */}
     {/* <Theamchanger /> */}
-    {/* <Header logo = 'images/logo.png' list = {list}/> */}
+    <Header logo = 'images/logo.png' list = {list}/>
     
     
     
