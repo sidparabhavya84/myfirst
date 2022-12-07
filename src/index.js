@@ -5,9 +5,9 @@ import './index.css'
 import reportWebVitals from './reportWebVitals';  
 // import Gallary from './componants/Gallary';
 // import title from './componants/title';
-import Header from './componants/Header';
-// import Counter from './componants/Counter';
-import Theamchanger from './componants/Theamchanger';
+// import Header from './componants/Header';
+import Counter from './componants/Counter';
+// import Theamchanger from './componants/Theamchanger';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,8 +15,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    {/* <Counter /> */}
-    <Theamchanger />
+    <Counter />
+    {/* <Theamchanger /> */}
     {/* <Header logo = 'images/logo.png' list = {list}/> */}
     
     
