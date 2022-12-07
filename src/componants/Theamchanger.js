@@ -7,7 +7,7 @@ class Theamchanger extends Component {
         super()
         this.state ={
             backgroundcolor: 'yellow',
-            color:'black',
+            color:'white',
         }
     }
     black(){
