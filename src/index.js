@@ -7,17 +7,17 @@ import reportWebVitals from './reportWebVitals';
 // import title from './componants/title';
 import Header from './componants/Header';
 // import Counter from './componants/Counter';
-// import Theamchanger from './componants/Theamchanger';
+import Theamchanger from './componants/Theamchanger';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const list = ["Home","About us","Blog","Services","Contact us","Help"];
+// const list = ["Home","About us","Blog","Services","Contact us","Help"];
 
 root.render(
   <>
     {/* <Counter /> */}
-    {/* <Theamchanger /> */}
-    <Header logo = 'images/logo.png' list = {list}/>
+    <Theamchanger />
+    {/* <Header logo = 'images/logo.png' list = {list}/> */}
     
     
     
