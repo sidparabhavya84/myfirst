@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(45deg, rgb(134, 165, 172) 0%, rgb(190, 184, 78) 49%, rgb(224, 114, 35) 100%);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato';
+    margin-left: 20px;
+    text-shadow: 0 2px 5px;
+}
+.App{
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px ;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+}
+form{
+    padding: 10px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+    padding: 5px;
+    background-color: rgb(99, 99, 122);
+    border: 2px solid rgb(75, 69, 69);
+    outline: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 10px; */
+    box-shadow: 0 3px 8px;
+
+
+}
+.sub{
+    width: 180px;
+    padding: 10px;
+    background-color: lavender;
+    margin-left: 100px;
+    transition: all 0.5s;
+    font-family: 'poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sub:hover{
+    background-color: aqua;
+    color: coral;
+}
+.ans{
+    color: rgb(75, 73, 73);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'candara';
+}
+.del{
+    margin-left: 80%;
+    margin-top: -10px;
+
+    padding: 5px;
+    background-color: blue;
+    text-transform: uppercase;
+}
+.clear{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
