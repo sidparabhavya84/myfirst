@@ -24,6 +24,10 @@ function Todo(){
         setTodos(updatedTodos)
     }
 
+    const remove= () =>{
+        setTodos([])
+    }
+
     function toggleComplete(id) {
         const updatedTodos = [...todos].map((todo) => {
             if (todo.id === id){
@@ -48,7 +52,7 @@ function Todo(){
                 <button onClick={() => deleteTodo(todo.id)} className="del">Delete</button>
                 
             </div>)}
-            <button className="clear">CLEAR ALL</button>
+            {todos.length>1?<button className="clear" onClick={remove}>CLEAR ALL</button>:''}
         </div>
     );
 
